@@ -31,5 +31,12 @@ NLTK used:
 https://www.nltk.org/
 
 
+https://stackoverflow.com/questions/4998629/split-string-with-multiple-delimiters-in-python
+
+#Removing duplicate words inspired from https://stackoverflow.com/questions/57424661/how-to-efficiently-remove-consecutive-duplicate-words-or-phrases-in-a-string
+
+
+
+
 
 
