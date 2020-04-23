@@ -35,6 +35,10 @@ https://stackoverflow.com/questions/4998629/split-string-with-multiple-delimiter
 
 #Removing duplicate words inspired from https://stackoverflow.com/questions/57424661/how-to-efficiently-remove-consecutive-duplicate-words-or-phrases-in-a-string
 
+LSTM keras implmentation inspired from:
+https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb
+
+
 
 
 
