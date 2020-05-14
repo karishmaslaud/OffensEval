@@ -40,6 +40,8 @@ https://scikit-learn.org/ <br/>
 Keras: <br/>
 https://keras.io/ <br/>
 
+
+
 ##Confusion matrix and heatmap for data analysis:<br/>
 confusion matrix using scikit-learn:<br/>
 https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html<br/>
@@ -50,4 +52,43 @@ https://stackoverflow.com/questions/35572000/how-can-i-plot-a-confusion-matrix<b
 Other References:
 https://stackoverflow.com/questions/4998629/split-string-with-multiple-delimiters-in-python <br/>
 #Removing duplicate words inspired from https://stackoverflow.com/questions/57424661/how-to-efficiently-remove-consecutive-duplicate-words-or-phrases-in-a-string <br/>
+
+
+##Citations to libraries used for computation:<br/>
+@article{numpy,
+    author={Stéfan van der Walt, S. Chris Colbert and Gaël Varoquaux},
+    title={The NumPy Array: A Structure for Efficient Numerical Computation},
+    journal={Computing in Science & Engineering},
+    volume=13,
+    pages=22-30,
+    year=2011,
+    doi={10.1109/MCSE.2011.37}
+}
+
+@article{matplotlib,
+    author={John D. Hunter},
+    title={Matplotlib: A 2D Graphics Environment},
+    year=2007,
+    volume=9,
+    pages=90-95,
+    journal={Computing in Science & Engineering},
+    doi={10.1109/MCSE.2007.55}
+}
+
+@article{pandas,
+    author={Wes McKinney},
+    title={Data Structures for Statistical Computing in Python},
+    journal={Proceedings of the 9th Python in Science Conference},
+    year=2010,
+    pages=51-56
+}
+
+@misc{seaborn,
+    author={Michael Waskom and others},
+    title        = {mwaskom/seaborn: v0.8.1 (September 2017)},
+    month        = sep,
+    year         = 2017,
+    doi          = {10.5281/zenodo.883859},
+    url          = {https://doi.org/10.5281/zenodo.883859}
+}
 
