@@ -31,6 +31,8 @@ softlabelssubtaskC keras multiclassification based on LSTM  using one hot  inspi
 Susan Li."Multi-Class Text Classification with LSTM" Medium/TowardsDataScience,10 April. 2019.https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17 <br/>
 https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb <br/>
 
+Jason Brownlee,"Sequence Classification with LSTM Recurrent Neural Networks in Python with Keras",26 July 2016. https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/<br/>
+
 ##Other libraries used: <br/>
 Emoji replacement: <br/>
 https://pypi.org/project/emoji/ <br/>
