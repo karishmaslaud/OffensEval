@@ -4,8 +4,9 @@ This repository contains our team problemConquero submissions for OffensEval 202
 ##BERT based models built using the following resources:
 
 All languages BERT Custom Data set and Data loader has been inspired from:<br/>
-https://towardsdatascience.com/bert-classifier-just-another-pytorch-model-881b3cf05784</br>
-https://github.com/sugi-chan/custom_bert_pipeline/blob/master/bert_pipeline.ipynb <br/> 
+Michael Sugimura,"BERT Classifier: Just Another Pytorch Model",Medium/TowardsDataScience,10 June.2019.https://towardsdatascience.com/bert-classifier-just-another-pytorch-model-881b3cf05784<br/>
+Github Repository:https://github.com/sugi-chan/custom_bert_pipeline<br/>
+https://github.com/sugi-chan/custom_bert_pipeline/blob/master/bert_pipeline.ipynb<br/>
 BertForSequenceClassification hugging face used:<br/>
 https://huggingface.co/transformers/model_doc/bert.html <br/>
 The code is based on the run_glue.py script here: <br/>
@@ -17,7 +18,6 @@ https://mccormickml.com/2019/07/22/BERT-fine-tuning/ <br/>
 BERT Bidirectional GRU and LSTM inspired from <br/>
 Ben Trevett,Tutorials on getting started with PyTorch and TorchText for sentiment analysis. GitHub repository, https://github.com/bentrevett/pytorch-sentiment-analysis<br/>
 https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/6%20-%20Transformers%20for%20Sentiment%20Analysis.ipynb<br/>
-
 Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
 https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understanding-the-output<br/>
 
@@ -27,7 +27,7 @@ RobertaForSequenceClassification huggingface used.  <br/>
 https://huggingface.co/transformers/model_doc/roberta.html <br/>
 
 ##Softlabels built using the following resources: <br/>
-softlabelssubtaskC keras multiclassification based on LSTM  using one hot  inspired from and built on top of the following github project: <br/>
+softlabelssubtaskC keras multiclassification based on LSTM  using one hot  inspired from:
 Susan Li."Multi-Class Text Classification with LSTM" Medium/TowardsDataScience,10 April. 2019.https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17 <br/>
 https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb <br/>
 
