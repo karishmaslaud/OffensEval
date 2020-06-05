@@ -53,6 +53,11 @@ Classical Methods inspired from:
 Ahmed Hammad,"Offensive-Language-Detection",Github Repository:https://github.com/ahmedhammad97/Offensive-Language-Detection
 <br/>
 
+Emoji replacement library used:
+https://github.com/carpedm20/emoji
+
+
+
 ##Confusion matrix and heatmap for data analysis:<br/>
 confusion matrix using scikit-learn:<br/>
 https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html<br/>
@@ -62,10 +67,7 @@ https://github.com/mwaskom/seaborn<br/>
 Other References:
 https://stackoverflow.com/questions/35572000/how-can-i-plot-a-confusion-matrix<br/>
 https://stackoverflow.com/questions/4998629/split-string-with-multiple-delimiters-in-python <br/>
-#Removing duplicate words inspired from https://stackoverflow.com/questions/57424661/how-to-efficiently-remove-consecutive-duplicate-words-or-phrases-in-a-string <br/>
-
-Emoji replacement library used:
-https://github.com/carpedm20/emoji
+#Removing consecutive duplicate words inspired from https://stackoverflow.com/a/57424859 <br/>
 
 
 ##Also citations to libraries used for computation:<br/>
