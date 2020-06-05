@@ -62,8 +62,12 @@ Other References:
 https://stackoverflow.com/questions/4998629/split-string-with-multiple-delimiters-in-python <br/>
 #Removing duplicate words inspired from https://stackoverflow.com/questions/57424661/how-to-efficiently-remove-consecutive-duplicate-words-or-phrases-in-a-string <br/>
 
+Emoji replacement library used:
+https://github.com/carpedm20/emoji
 
-##Citations to libraries used for computation:<br/>
+
+##Also citations to libraries used for computation:<br/>
+
 @article{numpy,
     author={Stéfan van der Walt, S. Chris Colbert and Gaël Varoquaux},
     title={The NumPy Array: A Structure for Efficient Numerical Computation},
@@ -101,3 +105,40 @@ https://stackoverflow.com/questions/4998629/split-string-with-multiple-delimiter
     url          = {https://doi.org/10.5281/zenodo.883859}
 }
 
+
+@MISC{2018ascl.soft06022C,
+       author = {{Chollet}, Fran{\c{c}}ois and {others}},
+        title = "{Keras: The Python Deep Learning library}",
+     keywords = {Software},
+         year = 2018,
+        month = jun,
+          eid = {ascl:1806.022},
+        pages = {ascl:1806.022},
+archivePrefix = {ascl},
+       eprint = {1806.022},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2018ascl.soft06022C},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@ARTICLE{2019arXiv191201703P,
+       author = {{Paszke}, Adam and {Gross}, Sam and {Massa}, Francisco and
+         {Lerer}, Adam and {Bradbury}, James and {Chanan}, Gregory and
+         {Killeen}, Trevor and {Lin}, Zeming and {Gimelshein}, Natalia and
+         {Antiga}, Luca and {Desmaison}, Alban and {K{\"o}pf}, Andreas and
+         {Yang}, Edward and {DeVito}, Zach and {Raison}, Martin and
+         {Tejani}, Alykhan and {Chilamkurthy}, Sasank and {Steiner}, Benoit and
+         {Fang}, Lu and {Bai}, Junjie and {Chintala}, Soumith},
+        title = "{PyTorch: An Imperative Style, High-Performance Deep Learning Library}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Machine Learning, Computer Science - Mathematical Software, Statistics - Machine Learning},
+         year = 2019,
+        month = dec,
+          eid = {arXiv:1912.01703},
+        pages = {arXiv:1912.01703},
+archivePrefix = {arXiv},
+       eprint = {1912.01703},
+ primaryClass = {cs.LG},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv191201703P},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
