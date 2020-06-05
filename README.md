@@ -1,6 +1,8 @@
 #**OffensEval 2020 Repository:**
 This repository contains our team problemConquero submissions for OffensEval 2020 and models we are working on for Offensive Language Detection.
 
+<br/>**The following are the references used for building the code **<br/>
+
 ##BERT based models built using the following resources:
 
 All languages BERT Custom Data set and Data loader has been inspired from:<br/>
@@ -27,10 +29,9 @@ RobertaForSequenceClassification huggingface used.  <br/>
 https://huggingface.co/transformers/model_doc/roberta.html <br/>
 
 ##Softlabels built using the following resources: <br/>
-softlabelssubtaskC keras multiclassification based on LSTM  using one hot  inspired from:
+softlabelssubtaskC keras multiclassification based on LSTM  using one hot  inspired from:<br/>
 Susan Li."Multi-Class Text Classification with LSTM" Medium/TowardsDataScience,10 April. 2019.https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17 <br/>
 https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb <br/>
-
 Jason Brownlee,"Sequence Classification with LSTM Recurrent Neural Networks in Python with Keras",26 July 2016. https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/<br/>
 
 ##Other libraries used: <br/>
