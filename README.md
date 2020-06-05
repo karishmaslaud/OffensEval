@@ -16,7 +16,7 @@ https://github.com/huggingface/transformers/blob/5bfcd0485ece086ebcbed2d00881303
 Inspired from the following: <br/>
 Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
 https://mccormickml.com/2019/07/22/BERT-fine-tuning/ <br/>
-
+https://colab.research.google.com/drive/1Y4o3jh3ZH70tl6mCd76vz_IxX23biCPP#scrollTo=1M296yz577fV<br/>
 BERT Bidirectional GRU and LSTM inspired from <br/>
 Ben Trevett,Tutorials on getting started with PyTorch and TorchText for sentiment analysis. GitHub repository, https://github.com/bentrevett/pytorch-sentiment-analysis<br/>
 https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/6%20-%20Transformers%20for%20Sentiment%20Analysis.ipynb<br/>
