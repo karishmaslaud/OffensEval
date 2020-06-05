@@ -1,7 +1,8 @@
 #**OffensEval 2020 Repository:**
-This repository contains our team problemConquero submissions for OffensEval 2020 and models we are working on for Offensive Language Detection.
+This repository contains our team problemConquero submissions for OffensEval 2020 and models we are working on for Offensive Language Detection.<br/>
 
-<br/>#**The following are the references used for building the code **<br/>
+**The following are the references used for building the code: **
+<br/>
 
 ##BERT based models built using the following resources:
 
