@@ -45,8 +45,9 @@ https://scikit-learn.org/ <br/>
 Keras: <br/>
 https://keras.io/ <br/>
 
-
-
+Classical Methods inspired from:
+Ahmed Hammad,"Offensive-Language-Detection",Github Repository:https://github.com/ahmedhammad97/Offensive-Language-Detection
+<br/>
 ##Confusion matrix and heatmap for data analysis:<br/>
 confusion matrix using scikit-learn:<br/>
 https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html<br/>
