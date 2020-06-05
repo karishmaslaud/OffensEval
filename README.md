@@ -15,7 +15,9 @@ Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with P
 https://mccormickml.com/2019/07/22/BERT-fine-tuning/ <br/>
 
 BERT Bidirectional GRU and LSTM inspired from <br/>
-https://github.com/bentrevett/pytorch-sentiment-analysis <br/>
+Ben Trevett,Tutorials on getting started with PyTorch and TorchText for sentiment analysis. GitHub repository, https://github.com/bentrevett/pytorch-sentiment-analysis<br/>
+https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/6%20-%20Transformers%20for%20Sentiment%20Analysis.ipynb<br/>
+
 Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
 https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understanding-the-output<br/>
 
@@ -26,8 +28,8 @@ https://huggingface.co/transformers/model_doc/roberta.html <br/>
 
 ##Softlabels built using the following resources: <br/>
 softlabelssubtaskC keras multiclassification based on LSTM  using one hot  inspired from and built on top of the following github project: <br/>
+Susan Li."Multi-Class Text Classification with LSTM" Medium/TowardsDataScience,10 April. 2019.https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17 <br/>
 https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb <br/>
-https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17 <br/>
 
 ##Other libraries used: <br/>
 Emoji replacement: <br/>
