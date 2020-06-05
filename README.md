@@ -1,7 +1,7 @@
 #**OffensEval 2020 Repository:**
 This repository contains our team problemConquero submissions for OffensEval 2020 and models we are working on for Offensive Language Detection.
 
-<br/>**The following are the references used for building the code **<br/>
+<br/>#**The following are the references used for building the code **<br/>
 
 ##BERT based models built using the following resources:
 
@@ -51,14 +51,15 @@ https://keras.io/ <br/>
 Classical Methods inspired from:
 Ahmed Hammad,"Offensive-Language-Detection",Github Repository:https://github.com/ahmedhammad97/Offensive-Language-Detection
 <br/>
+
 ##Confusion matrix and heatmap for data analysis:<br/>
 confusion matrix using scikit-learn:<br/>
 https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html<br/>
 Heatmap using seaborn:<br/>
 https://github.com/mwaskom/seaborn<br/>
-https://stackoverflow.com/questions/35572000/how-can-i-plot-a-confusion-matrix<br/>
 
 Other References:
+https://stackoverflow.com/questions/35572000/how-can-i-plot-a-confusion-matrix<br/>
 https://stackoverflow.com/questions/4998629/split-string-with-multiple-delimiters-in-python <br/>
 #Removing duplicate words inspired from https://stackoverflow.com/questions/57424661/how-to-efficiently-remove-consecutive-duplicate-words-or-phrases-in-a-string <br/>
 
