@@ -11,9 +11,12 @@ https://huggingface.co/transformers/model_doc/bert.html <br/>
 The code is based on the run_glue.py script here: <br/>
 https://github.com/huggingface/transformers/blob/5bfcd0485ece086ebcbed2d008813037968a9e58/examples/run_glue.py#L128 <br/>
 Inspired from the following tutorials: <br/>
+Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com
 https://mccormickml.com/2019/07/22/BERT-fine-tuning/ <br/>
+
 BERT Bidirectional GRU and LSTM inspired from <br/>
 https://github.com/bentrevett/pytorch-sentiment-analysis <br/>
+Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com
 https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understanding-the-output<br/>
 
 
