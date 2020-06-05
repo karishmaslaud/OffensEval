@@ -25,7 +25,7 @@ Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with P
 https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understanding-the-output<br/>
 
 
-##RoBERTa based models built using the following resources: <br/>
+##In addition to the above resources,RoBERTa based models built using the following resources: <br/>
 RobertaForSequenceClassification huggingface used.  <br/>
 https://huggingface.co/transformers/model_doc/roberta.html <br/>
 
