@@ -1,12 +1,12 @@
 #**OffensEval 2020 Repository:**
 This repository contains our team problemConquero submissions for OffensEval 2020 and models we are working on for Offensive Language Detection.<br/>
 
-**The following are the references used for building the code: **
+**The following are the references used for building the code:**
 <br/>
 
 ##BERT based models built using the following resources:
 
-All languages BERT Custom Data set and Data loader has been inspired from:<br/>
+All languages BERT and RoBerta Custom Data set and Data loader has been inspired and adapted from:<br/>
 Michael Sugimura,"BERT Classifier: Just Another Pytorch Model",Medium/TowardsDataScience,10 June.2019.https://towardsdatascience.com/bert-classifier-just-another-pytorch-model-881b3cf05784<br/>
 Github Repository:https://github.com/sugi-chan/custom_bert_pipeline<br/>
 https://github.com/sugi-chan/custom_bert_pipeline/blob/master/bert_pipeline.ipynb<br/>
@@ -14,23 +14,25 @@ BertForSequenceClassification hugging face used:<br/>
 https://huggingface.co/transformers/model_doc/bert.html <br/>
 The code is based on the run_glue.py script here: <br/>
 https://github.com/huggingface/transformers/blob/5bfcd0485ece086ebcbed2d008813037968a9e58/examples/run_glue.py#L128 <br/>
-Inspired from the following: <br/>
+Adapted and Inspired from the following: <br/>
 Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
 https://mccormickml.com/2019/07/22/BERT-fine-tuning/ <br/>
 https://colab.research.google.com/drive/1Y4o3jh3ZH70tl6mCd76vz_IxX23biCPP#scrollTo=1M296yz577fV<br/>
-BERT Bidirectional GRU and LSTM inspired from <br/>
+##BERT Bidirectional GRU and LSTM inspired and adapted from <br/>
 Ben Trevett,Tutorials on getting started with PyTorch and TorchText for sentiment analysis. GitHub repository, https://github.com/bentrevett/pytorch-sentiment-analysis<br/>
 https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/6%20-%20Transformers%20for%20Sentiment%20Analysis.ipynb<br/>
 Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
 https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understanding-the-output<br/>
 
-
-##In addition to the above resources,RoBERTa based models built using the following resources: <br/>
+##In addition to the above resources,RoBERTa based models adapted and inspired using the following resources: <br/>
 RobertaForSequenceClassification huggingface used.  <br/>
 https://huggingface.co/transformers/model_doc/roberta.html <br/>
+Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
+https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understanding-the-output<br/>
+
 
 ##Softlabels built using the following resources: <br/>
-softlabelssubtaskC keras multiclassification based on LSTM  using one hot  inspired from:<br/>
+A fair portion of softlabels for subtaskC (keras multiclassification based on LSTM  using one hot) adapted and inspired from:<br/>
 Susan Li."Multi-Class Text Classification with LSTM" Medium/TowardsDataScience,10 April. 2019.https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17 <br/>
 https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb <br/>
 Jason Brownlee,"Sequence Classification with LSTM Recurrent Neural Networks in Python with Keras",26 July 2016. https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/<br/>
@@ -49,7 +51,7 @@ https://scikit-learn.org/ <br/>
 Keras: <br/>
 https://keras.io/ <br/>
 
-Classical Methods inspired from:
+A fair portion of Classical Methods inspired and adapted from:
 Ahmed Hammad,"Offensive-Language-Detection",Github Repository:https://github.com/ahmedhammad97/Offensive-Language-Detection
 <br/>
 
@@ -65,9 +67,9 @@ Heatmap using seaborn:<br/>
 https://github.com/mwaskom/seaborn<br/>
 
 Other References:
-https://stackoverflow.com/questions/35572000/how-can-i-plot-a-confusion-matrix<br/>
-https://stackoverflow.com/questions/4998629/split-string-with-multiple-delimiters-in-python <br/>
-#Removing consecutive duplicate words inspired from https://stackoverflow.com/a/57424859 <br/>
+Creating a confusion matrix apapted and inspired from: https://stackoverflow.com/questions/35572000/how-can-i-plot-a-confusion-matrix<br/>
+Multiple delimiters adapted and inspired from: https://stackoverflow.com/questions/4998629/split-string-with-multiple-delimiters-in-python <br/>
+#Removing consecutive duplicate words adapted and  inspired from https://stackoverflow.com/a/57424859 <br/>
 
 
 ##Also citations to libraries used for computation:<br/>
