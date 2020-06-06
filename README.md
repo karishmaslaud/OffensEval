@@ -70,7 +70,6 @@ Other References:
 Creating a confusion matrix apapted and inspired from: https://stackoverflow.com/questions/35572000/how-can-i-plot-a-confusion-matrix<br/>
 Multiple delimiters adapted and inspired from: https://stackoverflow.com/questions/4998629/split-string-with-multiple-delimiters-in-python <br/>
 #Removing consecutive duplicate words adapted and  inspired from: https://stackoverflow.com/a/57424859 <br/>
-#conversion to float adapted and inspired from: https://stackoverflow.com/questions/24251219/pandas-read-csv-low-memory-and-dtype-options
 
 
 ##Also citations to libraries used for computation:<br/>
