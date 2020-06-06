@@ -32,7 +32,7 @@ https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understandi
 
 
 ##Softlabels built using the following resources: <br/>
-A fair portion of softlabels for subtaskC (keras multiclassification based on LSTM  using one hot) adapted and inspired from:<br/>
+A fair portion of code for softlabels for subtaskC (keras multiclassification based on LSTM  using one hot) adapted and inspired from:<br/>
 Susan Li."Multi-Class Text Classification with LSTM" Medium/TowardsDataScience,10 April. 2019.https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17 <br/>
 https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb <br/>
 Jason Brownlee,"Sequence Classification with LSTM Recurrent Neural Networks in Python with Keras",26 July 2016. https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/<br/>
@@ -51,7 +51,7 @@ https://scikit-learn.org/ <br/>
 Keras: <br/>
 https://keras.io/ <br/>
 
-A fair portion of Classical Methods inspired and adapted from:
+A fair portion of code for Classical Methods inspired and adapted from:
 Ahmed Hammad,"Offensive-Language-Detection",Github Repository:https://github.com/ahmedhammad97/Offensive-Language-Detection
 <br/>
 
