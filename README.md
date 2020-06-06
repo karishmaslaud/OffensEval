@@ -31,7 +31,7 @@ Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with P
 https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understanding-the-output<br/>
 
 
-##Softlabels(subtaskcsoftlabelsfinal.ipynb is the final code as submitted in OffensEval2020,old code is present in old folder)built using the following resources: <br/>
+##Softlabels(subtaskcsoftlabelsfinal.ipynb is the final code as submitted in OffensEval2020)built using the following resources: <br/>
 A fair portion of code for softlabels for subtaskC (keras multiclassification based on LSTM  using one hot) adapted and inspired from:<br/>
 Susan Li,"Multi-Class Text Classification with LSTM",Medium/TowardsDataScience,10 April.2019. https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17 <br/>
 https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb <br/>
