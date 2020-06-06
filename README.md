@@ -7,7 +7,7 @@ This repository contains our team problemConquero submissions for OffensEval 202
 ##BERT based models built using the following resources:
 
 All languages BERT and RoBerta Custom Data set and Data loader has been inspired and adapted from:<br/>
-Michael Sugimura,"BERT Classifier: Just Another Pytorch Model",Medium/TowardsDataScience,10 June.2019.https://towardsdatascience.com/bert-classifier-just-another-pytorch-model-881b3cf05784<br/>
+Michael Sugimura,"BERT Classifier: Just Another Pytorch Model",Medium/TowardsDataScience,10 June.2019.https://towardsdatascience.com/bert-classifier-just-another-pytorch-model-881b3cf05784 , 
 Github Repository:https://github.com/sugi-chan/custom_bert_pipeline<br/>
 https://github.com/sugi-chan/custom_bert_pipeline/blob/master/bert_pipeline.ipynb<br/>
 BertForSequenceClassification hugging face used:<br/>
@@ -19,7 +19,7 @@ Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with P
 https://mccormickml.com/2019/07/22/BERT-fine-tuning/ <br/>
 https://colab.research.google.com/drive/1Y4o3jh3ZH70tl6mCd76vz_IxX23biCPP#scrollTo=1M296yz577fV<br/>
 ##BERT Bidirectional GRU and LSTM inspired and adapted from <br/>
-Ben Trevett,Tutorials on getting started with PyTorch and TorchText for sentiment analysis. GitHub repository, https://github.com/bentrevett/pytorch-sentiment-analysis<br/>
+Ben Trevett,"Tutorials on getting started with PyTorch and TorchText for sentiment analysis". GitHub repository, https://github.com/bentrevett/pytorch-sentiment-analysis<br/>
 https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/6%20-%20Transformers%20for%20Sentiment%20Analysis.ipynb<br/>
 Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
 https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understanding-the-output<br/>
@@ -33,7 +33,7 @@ https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understandi
 
 ##Softlabels(subtaskcsoftlabelsfinal.ipynb is the final code as submitted in OffensEval2020)built using the following resources: <br/>
 A fair portion of code for softlabels for subtaskC (keras multiclassification based on LSTM  using one hot) adapted and inspired from:<br/>
-Susan Li,"Multi-Class Text Classification with LSTM",Medium/TowardsDataScience,10 April.2019. https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17 <br/>
+Susan Li,"Multi-Class Text Classification with LSTM",Medium/TowardsDataScience,10 April.2019. https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17 ,Github Repository:
 https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb <br/>
 Jason Brownlee,"Sequence Classification with LSTM Recurrent Neural Networks in Python with Keras",26 July 2016. https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/<br/>
 
