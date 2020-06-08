@@ -42,7 +42,7 @@ else:
   device=torch.device("cpu")
 
 
-# conversion to float taken from https://stackoverflow.com/questions/24251219/pandas-read-csv-low-memory-and-dtype-options
+# conversion to float inspired and adapted from https://stackoverflow.com/questions/24251219/pandas-read-csv-low-memory-and-dtype-options
 def convertToFloat(val):
     if not val:
         return 0    
