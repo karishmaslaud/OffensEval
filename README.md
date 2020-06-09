@@ -1,6 +1,8 @@
 #**OffensEval 2020 Repository:**
 This repository contains our team problemConquero submissions for OffensEval 2020 and models we are working on for Offensive Language Detection.<br/>
 
+For Danish Bert based fine tuning,the F1 score and accuracy on the validation set is not stable due to shuffling used before giving the data to the BERT model.
+
 **The following are the references used for building the code:**
 <br/>
 
@@ -36,6 +38,7 @@ A fair portion of code for softlabels for subtaskC (keras multiclassification ba
 Susan Li,"Multi-Class Text Classification with LSTM",Medium/TowardsDataScience,10 April.2019. https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17 ,Github Repository:
 https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb <br/>
 Jason Brownlee,"Sequence Classification with LSTM Recurrent Neural Networks in Python with Keras",26 July 2016. https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/<br/>
+
 
 ##Other libraries used: <br/>
 Emoji replacement: <br/>
