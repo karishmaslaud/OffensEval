@@ -61,7 +61,7 @@ Ahmed Hammad,"Offensive-Language-Detection",Github Repository:https://github.com
 Emoji replacement library used:
 https://github.com/carpedm20/emoji
 
-
+XGboost library used : https://github.com/dmlc/xgboost
 
 ##Confusion matrix and heatmap for data analysis:<br/>
 confusion matrix using scikit-learn:<br/>
