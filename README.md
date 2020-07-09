@@ -3,7 +3,7 @@ This repository contains our team problemConquero submissions for OffensEval 202
 
 For Danish Bert based fine tuning,the F1 score and accuracy on the validation set is not stable due to shuffling used before giving the data to the BERT model.
 
-**The following are the references used for building the code:**
+**The following are the references used for building the code:Please give credits to the following authors while using the code.**
 <br/>
 
 ##BERT based models built using the following resources:
