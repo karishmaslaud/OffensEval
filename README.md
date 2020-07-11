@@ -1,7 +1,7 @@
 #**OffensEval 2020 Repository:**
 This repository contains our team problemConquero submissions for OffensEval 2020 and models we are working on for Offensive Language Detection.<br/>
 
-For Danish Bert based fine tuning,the F1 score and accuracy on the validation set is not stable due to shuffling used before giving the data to the BERT model.
+For Danish Bert based fine tuning,the F1 score and accuracy on the validation set is not stable due to shuffling used before giving the data to the BERT model.Hence highly varying results can be obtained.
 
 **The following are the references used for building the code:Please give credits to the following authors while using the code.**
 <br/>
