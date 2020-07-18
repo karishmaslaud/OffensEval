@@ -1,45 +1,80 @@
 #**OffensEval 2020 Repository:**
 This repository contains our team problemConquero submissions for OffensEval 2020 and models we are working on for Offensive Language Detection.<br/>
 
-For Danish Bert based fine tuning,the F1 score and accuracy on the validation set is not stable due to shuffling used before giving the data to the BERT model.Hence highly varying results can be obtained.
+# Why Offensive Language Detection is important?
+Offensive Language can prove detrimental to effective communication on social media.
 
-**The following are the references used for building the code:Please give credits to the following authors while using the code.**
+Note:
+For Danish Bert based fine tuning,the F1 score and accuracy on the validation set is not stable and can show high variation due to shuffling used before giving the data to the BERT model.
+
+
+Mojority of the models in this Repository are based on 
+1)BERT 
+Devlin, Jacob; Chang, Ming-Wei; Lee, Kenton; Toutanova, Kristina (11 October 2018). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding". arXiv:1810.04805v2
+
+2)RoBERTa
+Liu, Yinhan & Ott, Myle & Goyal, Naman & Du, Jingfei & Joshi, Mandar & Chen, Danqi & Levy, Omer & Lewis, Mike & Zettlemoyer, Luke & Stoyanov, Veselin. (2019). RoBERTa: A Robustly Optimized BERT Pretraining Approach.
+
+**The following are the references used for building the code:**
+
+Please provide appropriate credit to the authors given below if you are using a particular section of the code.We have borrowed the code and adapted for our models.Some sections are taken as it is from the following links.We take no credit for the same.
+
 <br/>
 
-##BERT based models built using the following resources:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-All languages BERT and RoBerta Custom Data set and Data loader has been inspired and adapted from:<br/>
-Michael Sugimura,"BERT Classifier: Just Another Pytorch Model",Medium/TowardsDataScience,10 June.2019.https://towardsdatascience.com/bert-classifier-just-another-pytorch-model-881b3cf05784 , 
-Github Repository:https://github.com/sugi-chan/custom_bert_pipeline<br/>
-https://github.com/sugi-chan/custom_bert_pipeline/blob/master/bert_pipeline.ipynb<br/>
+##For BERT and RoBERTa based finetuning we have borrowed the code from the following link and made some changes to fit our models.Please give credit to the following authors:
+Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
+Exact link: https://mccormickml.com/2019/07/22/BERT-fine-tuning/ <br/>
+They have provided a colab link for their code here:https://colab.research.google.com/drive/1Y4o3jh3ZH70tl6mCd76vz_IxX23biCPP#scrollTo=1M296yz577fV<br/>
+
+#All languages BERT and RoBerta Custom Data set and Data loader has been inspired and adapted from:<br/>
+We borrowed the code for the Custom Data set and Data loader from the github repository,Please give due credit to the authors:
+
+Michael Sugimura. "custom_bert_pipeline". Github Repository:https://github.com/sugi-chan/custom_bert_pipeline. Exact section:https://github.com/sugi-chan/custom_bert_pipeline/blob/master/bert_pipeline.ipynb. Accessed:2020-01-30<br/>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##In addition to the above resources,BERT based models built using the following resources: <br/>
+
 BertForSequenceClassification hugging face used:<br/>
 https://huggingface.co/transformers/model_doc/bert.html <br/>
+
 The code is based on the run_glue.py script here: <br/>
 https://github.com/huggingface/transformers/blob/5bfcd0485ece086ebcbed2d008813037968a9e58/examples/run_glue.py#L128 <br/>
-Adapted and Inspired from the following: <br/>
-Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
-https://mccormickml.com/2019/07/22/BERT-fine-tuning/ <br/>
-https://colab.research.google.com/drive/1Y4o3jh3ZH70tl6mCd76vz_IxX23biCPP#scrollTo=1M296yz577fV<br/>
-##A fair portion of the code for BERT Bidirectional GRU and LSTM inspired and adapted from <br/>
-Ben Trevett,"Tutorials on getting started with PyTorch and TorchText for sentiment analysis". GitHub repository, https://github.com/bentrevett/pytorch-sentiment-analysis<br/>
-https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/6%20-%20Transformers%20for%20Sentiment%20Analysis.ipynb<br/>
-Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
-https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understanding-the-output<br/>
 
-##In addition to the above resources,RoBERTa based models adapted and inspired using the following resources: <br/>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##A fair portion of the code for BERT Bidirectional GRU and LSTM inspired and adapted from <br/>
+#We have borrowed code from the following repositories and links and made some minor changes to fit our model.Please give credit to these authors.
+
+A majority portion of the code was borrowed from :
+Ben Trevett and César de Pablo. "Tutorials on getting started with PyTorch and TorchText for sentiment analysis". GitHub repository:https://github.com/bentrevett/pytorch-sentiment-analysis. Accessed:2020-02-10<br/>
+Exact Section:https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/6%20-%20Transformers%20for%20Sentiment%20Analysis.ipynb<br/>
+
+Chris McCormick and Nick Ryan. (2019, May 14). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
+Exact Section:https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understanding-the-output<br/>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##In addition to the above resources,RoBERTa based models built using the following resources: <br/>
+
 RobertaForSequenceClassification huggingface used.  <br/>
 https://huggingface.co/transformers/model_doc/roberta.html <br/>
 Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
 https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understanding-the-output<br/>
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Softlabels(subtaskcsoftlabels.ipynb is the final code as submitted in OffensEval2020)
+##soft label approach was built using the following resources: <br/>
+A code for softlabels for subtaskC (keras multiclassification based on LSTM  using one hot) adapted and inspired from:<br/>
 
-##Softlabels(subtaskcsoftlabelsfinal.ipynb is the final code as submitted in OffensEval2020)built using the following resources: <br/>
-A fair portion of code for softlabels for subtaskC (keras multiclassification based on LSTM  using one hot) adapted and inspired from:<br/>
-Susan Li,"Multi-Class Text Classification with LSTM",Medium/TowardsDataScience,10 April.2019. https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17 ,Github Repository:
-https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb <br/>
-Jason Brownlee,"Sequence Classification with LSTM Recurrent Neural Networks in Python with Keras",26 July 2016. https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/<br/>
+#A fair portion of the code for soft labels has been borrowed from the following repository and with some minor changes to fit our model.Please give credit to these authors.
 
+Susan Li. "NLP with Python". Github Repository:https://github.com/susanli2016/NLP-with-Python. Accessed:2020-02-21.<br/>
+We have used the code of Multi-Class Text Classification LSTM Consumer complaints.ipynb in the above github repository :
+Exact Section:https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb <br/>
 
+##In addition to the above resources the following also referred for LSTM:
+Jason Brownlee. "Sequence Classification with LSTM Recurrent Neural Networks in Python with Keras". 26 July 2016. Retrievd from:https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/ Accessed:2020-02-21<br/>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##Other libraries used: <br/>
 Emoji replacement: <br/>
 https://pypi.org/project/emoji/ <br/>
@@ -54,8 +89,9 @@ https://scikit-learn.org/ <br/>
 Keras: <br/>
 https://keras.io/ <br/>
 
-A fair portion of code for Classical Methods inspired and adapted from:
-Ahmed Hammad,"Offensive-Language-Detection",Github Repository:https://github.com/ahmedhammad97/Offensive-Language-Detection
+#For classical methods please give credit to the following author:
+A fair portion of code for Classical Methods borrowed from the following repository with few minor changes:
+Ahmed Hammad. "Offensive-Language-Detection". Github Repository:https://github.com/ahmedhammad97/Offensive-Language-Detection. Accessed:2020-01-25<br/>
 <br/>
 
 Emoji replacement library used:
@@ -70,10 +106,10 @@ Heatmap using seaborn:<br/>
 https://github.com/mwaskom/seaborn<br/>
 
 Other References:
-Creating a confusion matrix apapted and inspired from: https://stackoverflow.com/questions/35572000/how-can-i-plot-a-confusion-matrix<br/>
+Creating a confusion matrix inspired and adapted from: https://stackoverflow.com/questions/35572000/how-can-i-plot-a-confusion-matrix <br/>
 Multiple delimiters adapted and inspired from: https://stackoverflow.com/questions/4998629/split-string-with-multiple-delimiters-in-python <br/>
-#Removing consecutive duplicate words adapted and  inspired from: https://stackoverflow.com/a/57424859 <br/>
-#conversion to float inspired and adapted from https://stackoverflow.com/questions/24251219/pandas-read-csv-low-memory-and-dtype-options
+#Removing consecutive duplicate words code taken as it is from the answer https://stackoverflow.com/a/57424859 to https://stackoverflow.com/questions/57424661/how-to-efficiently-remove-consecutive-duplicate-words-or-phrases-in-a-string/<br/>
+#conversion to float code taken as it is from the answer https://stackoverflow.com/a/39298571 to https://stackoverflow.com/questions/24251219/pandas-read-csv-low-memory-and-dtype-options <br/>
 
 ##Also citations to libraries used for computation:<br/>
 
