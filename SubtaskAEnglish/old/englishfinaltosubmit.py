@@ -42,7 +42,8 @@ else:
   device=torch.device("cpu")
 
 
-# conversion to float inspired and adapted from https://stackoverflow.com/questions/24251219/pandas-read-csv-low-memory-and-dtype-options
+#conversion to float code taken as it is from the answer https://stackoverflow.com/a/39298571 to #https://stackoverflow.com/questions/24251219/pandas-read-csv-low-memory-and-dtype-options <br/>
+#Please refer README.md
 def convertToFloat(val):
     if not val:
         return 0    
@@ -91,7 +92,8 @@ def giveIds(sentence):
 
 
 
-# conversion to float taken from https://stackoverflow.com/questions/24251219/pandas-read-csv-low-memory-and-dtype-options
+# #conversion to float code taken as it is from the answer https://stackoverflow.com/a/39298571 to #https://stackoverflow.com/questions/24251219/pandas-read-csv-low-memory-and-dtype-options <br/>
+#Please refere README.md
 def convertToFloat(val):
     if not val:
         return 0    
@@ -180,16 +182,10 @@ def calculateF1Score(predictions,labels):
 
 
 
-#creating a dataset inspired from 
-#https://towardsdatascience.com/bert-classifier-just-another-pytorch-model-881b3cf05784
-
-#xytest[1]
-
-
-
-#the customdataset section has been inspired from 
-#https://github.com/sugi-chan/custom_bert_pipeline/blob/master/bert_pipeline.ipynb
-
+#Custom Data set and Data loader has  been adapted and inspired from 
+#Michael Sugimura. "custom_bert_pipeline". Github Repository:https://github.com/sugi-chan/custom_bert_pipeline. Exact section:https://github.com/sugi-chan/custom_bert_pipeline/blob/master/bert_pipeline.ipynb. Accessed:2020-01-30
+#BERT based fine tuning adapted and inspired from:
+#Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com
 
 
 class EnglishTrainDataset(Dataset):
