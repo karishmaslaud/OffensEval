@@ -72,7 +72,7 @@ Susan Li. "NLP with Python". Github Repository:https://github.com/susanli2016/NL
 We have used the code of Multi-Class Text Classification LSTM Consumer complaints.ipynb in the above github repository :
 Exact Section:https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb <br/>
 
-##In addition to the above resources the following also referred for LSTM:
+#In addition to the above resources the following also referred for LSTM:<br/>
 Jason Brownlee. "Sequence Classification with LSTM Recurrent Neural Networks in Python with Keras". 26 July 2016. Retrievd from:https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/ Accessed:2020-02-21<br/>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##Other libraries used: <br/>
