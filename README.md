@@ -1,6 +1,16 @@
 #**OffensEval 2020 Repository:**
 This repository contains our team problemConquero submissions for OffensEval 2020 and models we are working on for Offensive Language Detection.<br/>
 
+https://sites.google.com/site/offensevalsharedtask/home <br/>
+
+@inproceedings{zampieri-etal-2020-semeval,
+    title = {{SemEval-2020 Task 12: Multilingual Offensive Language Identification in Social Media (OffensEval 2020)}},
+    author = {Zampieri, Marcos and Nakov, Preslav and Rosenthal, Sara and Atanasova, Pepa and Karadzhov, Georgi and Mubarak, Hamdy and Derczynski, Leon and Pitenis, Zeses and \c{C}\"{o}ltekin, \c{C}a\u{g}r{\i}},
+    booktitle = {Proceedings of SemEval},
+    year = {2020}
+}
+
+<br/>
 # Why Offensive Language Detection is important?
 Offensive Language can prove detrimental to effective communication on social media.
 
@@ -8,7 +18,7 @@ Note:
 For Danish Bert based fine tuning,the F1 score and accuracy on the validation set is not stable and can show high variation due to shuffling used before giving the data to the BERT model.
 
 
-Mojority of the models in this Repository are based on 
+Majority of the models in this Repository are based on 
 1)BERT 
 Devlin, Jacob; Chang, Ming-Wei; Lee, Kenton; Toutanova, Kristina (11 October 2018). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding". arXiv:1810.04805v2
 
@@ -17,19 +27,19 @@ Liu, Yinhan & Ott, Myle & Goyal, Naman & Du, Jingfei & Joshi, Mandar & Chen, Dan
 
 **The following are the references used for building the code:**
 
-Please provide appropriate credit to the authors given below if you are using a particular section of the code.We have borrowed the code and adapted for our models.Some sections are taken as it is from the following links.We take no credit for the same.
+Please provide appropriate credit to the authors given below if you are using a particular section of the code.We have borrowed the code and adapted for our models.Some sections are taken as it is from the following repositories and links.We take no credit for the same.
 
 <br/>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##For BERT and RoBERTa based finetuning we have borrowed the code from the following link and made some changes to fit our models.Please give credit to the following authors:
+##For BERT and RoBERTa based finetuning we have borrowed the code from the following and made changes to fit our models.Please give credit to the following authors:
 Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
 Exact link: https://mccormickml.com/2019/07/22/BERT-fine-tuning/ <br/>
 They have provided a colab link for their code here:https://colab.research.google.com/drive/1Y4o3jh3ZH70tl6mCd76vz_IxX23biCPP#scrollTo=1M296yz577fV<br/>
 
 #All languages BERT and RoBerta Custom Data set and Data loader has been inspired and adapted from:<br/>
-We borrowed the code for the Custom Data set and Data loader from the github repository,Please give due credit to the authors:
+We borrowed the code for the Custom Data set and Data loader from the following github repository,Please give due credit to the authors:
 
 Michael Sugimura. "custom_bert_pipeline". Github Repository:https://github.com/sugi-chan/custom_bert_pipeline. Exact section:https://github.com/sugi-chan/custom_bert_pipeline/blob/master/bert_pipeline.ipynb. Accessed:2020-01-30<br/>
 
@@ -58,16 +68,12 @@ Exact Section:https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#
 
 RobertaForSequenceClassification huggingface used.  <br/>
 https://huggingface.co/transformers/model_doc/roberta.html <br/>
-Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
-https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#32-understanding-the-output<br/>
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Softlabels(subtaskcsoftlabels.ipynb is the final code as submitted in OffensEval2020)
-##soft label approach was built using the following resources: <br/>
-A code for softlabels for subtaskC (keras multiclassification based on LSTM  using one hot) adapted and inspired from:<br/>
+#The code for softlabels for subtaskC (keras multiclassification based on LSTM) adapted and inspired from:<br/>
 
 #A fair portion of the code for soft labels has been borrowed from the following repository and with some minor changes to fit our model.Please give credit to these authors.
-
 Susan Li. "NLP with Python". Github Repository:https://github.com/susanli2016/NLP-with-Python. Accessed:2020-02-21.<br/>
 We have used the code of Multi-Class Text Classification LSTM Consumer complaints.ipynb in the above github repository :<br/>
 Exact Section:https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb .<br/>
@@ -93,8 +99,9 @@ Keras: <br/>
 https://keras.io/ <br/>
 
 #For classical methods please give credit to the following author:
-A fair portion of code for Classical Methods borrowed from the following repository with few minor changes:
+A fair portion of the code for Classical Methods borrowed from the following repository with some minor changes:
 Ahmed Hammad. "Offensive-Language-Detection". Github Repository:https://github.com/ahmedhammad97/Offensive-Language-Detection. Accessed:2020-01-25<br/>
+Exact Section:https://github.com/ahmedhammad97/Offensive-Language-Detection/blob/master/classifying.py
 <br/>
 
 Emoji replacement library used:
