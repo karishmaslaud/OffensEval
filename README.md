@@ -35,6 +35,7 @@ Please provide appropriate credit to the authors given below if you are using a 
 ##BERT and RoBERTa based fine tuning adapted and inspired from the following:
 
 ##For BERT and RoBERTa based finetuning we have borrowed the code from the following and made changes to fit our models.Please give credit to the following authors while using the code:
+<br/>
 Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
 Exact link: https://mccormickml.com/2019/07/22/BERT-fine-tuning/ <br/>
 They have provided a colab link for their code here:https://colab.research.google.com/drive/1Y4o3jh3ZH70tl6mCd76vz_IxX23biCPP#scrollTo=1M296yz577fV<br/>
