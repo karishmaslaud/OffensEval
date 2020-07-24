@@ -32,14 +32,15 @@ Please provide appropriate credit to the authors given below if you are using a 
 <br/>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##BERT and RoBERTa based fine tuning adapted and inspired from the following:
 
-##For BERT and RoBERTa based finetuning we have borrowed the code from the following and made changes to fit our models.Please give credit to the following authors:
+##For BERT and RoBERTa based finetuning we have borrowed the code from the following and made changes to fit our models.Please give credit to the following authors while using the code:
 Chris McCormick and Nick Ryan. (2019, July 22). BERT Fine-Tuning Tutorial with PyTorch. Retrieved from http://www.mccormickml.com<br/>
 Exact link: https://mccormickml.com/2019/07/22/BERT-fine-tuning/ <br/>
 They have provided a colab link for their code here:https://colab.research.google.com/drive/1Y4o3jh3ZH70tl6mCd76vz_IxX23biCPP#scrollTo=1M296yz577fV<br/>
 
 #All languages BERT and RoBerta Custom Data set and Data loader has been inspired and adapted from:<br/>
-We borrowed the code for the Custom Data set and Data loader from the following github repository,Please give due credit to the authors:
+We borrowed the code for the Custom Data set and Data loader from the following github repository,Please give due credit to the authors when using the code:
 
 Michael Sugimura. "custom_bert_pipeline". Github Repository:https://github.com/sugi-chan/custom_bert_pipeline. Exact section:https://github.com/sugi-chan/custom_bert_pipeline/blob/master/bert_pipeline.ipynb. Accessed:2020-01-30<br/>
 
@@ -54,9 +55,9 @@ https://github.com/huggingface/transformers/blob/5bfcd0485ece086ebcbed2d00881303
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##A fair portion of the code for BERT Bidirectional GRU and LSTM inspired and adapted from <br/>
-#We have borrowed code from the following repositories and links and made some minor changes to fit our model.Please give credit to these authors.
+#We have borrowed code from the following repositories and links and made some minor changes to fit our model.Please give credit to these authors while using the code.
 
-A majority portion of the code was borrowed from :
+A majority portion of the code was borrowed with minor changes from:
 Ben Trevett and César de Pablo. "Tutorials on getting started with PyTorch and TorchText for sentiment analysis". GitHub repository:https://github.com/bentrevett/pytorch-sentiment-analysis. Accessed:2020-02-10<br/>
 Exact Section:https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/6%20-%20Transformers%20for%20Sentiment%20Analysis.ipynb<br/>
 
@@ -73,7 +74,7 @@ https://huggingface.co/transformers/model_doc/roberta.html <br/>
 #Softlabels(subtaskcsoftlabels.ipynb is the final code as submitted in OffensEval2020)
 #The code for softlabels for subtaskC (keras multiclassification based on LSTM) adapted and inspired from:<br/>
 
-#A fair portion of the code for soft labels has been borrowed from the following repository and with some minor changes to fit our model.Please give credit to these authors.
+#A fair portion of the code for soft labels has been borrowed from the following repository and with some minor changes to fit our model.Please give credit to these authors while using the code.
 Susan Li. "NLP with Python". Github Repository:https://github.com/susanli2016/NLP-with-Python. Accessed:2020-02-21.<br/>
 We have used the code of Multi-Class Text Classification LSTM Consumer complaints.ipynb in the above github repository :<br/>
 Exact Section:https://github.com/susanli2016/NLP-with-Python/blob/master/Multi-Class%20Text%20Classification%20LSTM%20Consumer%20complaints.ipynb .<br/>
@@ -98,7 +99,7 @@ https://scikit-learn.org/ <br/>
 Keras: <br/>
 https://keras.io/ <br/>
 
-#For classical methods please give credit to the following author:
+#For classical methods please give credit to the following author while using the code:
 A fair portion of the code for Classical Methods borrowed from the following repository with some minor changes:
 Ahmed Hammad. "Offensive-Language-Detection". Github Repository:https://github.com/ahmedhammad97/Offensive-Language-Detection. Accessed:2020-01-25<br/>
 Exact Section:https://github.com/ahmedhammad97/Offensive-Language-Detection/blob/master/classifying.py
